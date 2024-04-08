@@ -1,0 +1,33 @@
+.checkout {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    height: max-content;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 20%), 0 2px 4px -1px rgb(0 0 0 / 14%), 0 0 0 1px rgb(0 0 0 / 12%);
+  }
+  .checkout_ad {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .checkout_left {
+    display: flex;
+flex-direction: column; 
+width: 266px;
+height: 10px;
+ }
+  
+
+
+   .checkout_title {
+    color: black; /* Specify your desired color */
+    font-size: 20px; /* Adjust the font size as needed */
+    margin-bottom: 10px; /* Add spacing below the title if necessary */
+    border-bottom: 2px solid blue;
+    padding: 10px;
+  }
+  
+  
+  

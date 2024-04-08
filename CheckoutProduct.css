@@ -1,0 +1,30 @@
+.checkout {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: aquamarine;
+  }
+  .CheckoutProduct {
+    object-fit: contain;
+    width: 1800px;
+    height: 180px;
+  }
+  .checkoutproduct_title{
+padding: 5px;
+align-items: center;
+
+  }
+  
+  .checkout_ad {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .checkout_title {
+    margin-right: 10px;
+    padding: 10px 10px;
+    border-bottom: 4px solid blueviolet;
+  }
+  
+  

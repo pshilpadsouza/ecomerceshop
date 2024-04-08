@@ -1,0 +1,90 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background-color:black;
+    color: white;
+    position: sticky;
+    z-index: 0;
+  }
+  
+  .header_logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 0 25px;
+  }
+  
+  .header_logoImage {
+    margin-right: 10px;
+  }
+  
+  .header_logotitle {
+text-decoration: none;   
+color: white; 
+border: 0;
+}
+  
+  .header_search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+  }
+  
+  .header_searchinput {
+    height: 12px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+  }
+  
+  .header_searchicon {
+    padding: 5px;
+    height: 22px !important;
+    background-color: blue;
+    color: black;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    cursor: pointer;
+  }
+  
+  .header_nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav_item {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .nav_itemLineOne {
+    font-size: 10px;
+  }
+  
+  .nav_itemLineTwo {
+    font-size: 13px;
+    font-weight: 800;
+  }
+  .nav_itembasket{
+    display: flex;
+  }
+  
+  .nav_itemLineTwo:last-child {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav_itemLineTwo:last-child::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    margin-left: 5px;
+  }
+  

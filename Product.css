@@ -1,0 +1,53 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product_info {
+    margin-bottom: 15px;
+  }
+  
+  .product_info > p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .product-prise {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .product_rating {
+    color: #f0c14b; /* Amazon's rating color */
+  }
+  
+  .product > img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;/*resoln will be same
+  }
+  
+  button {
+    background-color: #f0c14b; /* Amazon's button color */
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+  }
+  
+  button:hover {
+    background-color: #ddb347; /* Darken the button color on hover */
+  }
+  
